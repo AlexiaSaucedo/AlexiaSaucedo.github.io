@@ -17,6 +17,11 @@ const Projects = () => (
             <Hr />
           </TitleContent>
           <CardInfo>{description} </CardInfo>
+          <UtilityList>
+            <ExternalLinks href={source}>
+              Visit source
+            </ExternalLinks>
+          </UtilityList>
         </BlogCard>
       ))}
     </GridContainer>
